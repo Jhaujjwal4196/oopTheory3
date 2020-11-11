@@ -1,7 +1,8 @@
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import jdk.internal.org.jline.terminal.MouseEvent;
+import java.awt.event.*;
 import java.awt.*;
+
 
 class  gui extends JFrame{
 private String details;
@@ -16,7 +17,7 @@ private JLabel statusbar;
  }
  private class MouseClass extends MouseAdapter {
 public void mouseClicked(MouseEvent event){
-details= String.format("You clicked %d",event.getClickCount);
+details= String.format("You clicked %d",event.getClickCount());
 if(event.isMetaDown())
 details += "you have clicked the right button";
 else if (event.isAltDown())
