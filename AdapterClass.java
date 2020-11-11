@@ -1,12 +1,9 @@
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-
 import jdk.internal.org.jline.terminal.MouseEvent;
-
 import java.awt.*;
 
-
- public class  gui extends JFrame{
+class  gui extends JFrame{
 private String details;
 private JLabel statusbar;
  public gui(){
@@ -17,7 +14,7 @@ private JLabel statusbar;
 
 
  }
- private MouseClass extends MouseAdapter {
+ private class MouseClass extends MouseAdapter {
 public void mouseClicked(MouseEvent event){
 details= String.format("You clicked %d",event.getClickCount);
 if(event.isMetaDown())
