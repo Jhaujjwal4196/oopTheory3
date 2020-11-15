@@ -32,6 +32,12 @@ import javax.swing.*;
 
           }
       });
+      addWindowListener(new WindowAdapter(){
+          @Override
+          public void windowClosing(WindowEvent e){
+              System.exit(0);
+          }
+      });
       setTitle("Jha's Swing Accumulator");
       setSize(500,200);
       setVisible(true);
