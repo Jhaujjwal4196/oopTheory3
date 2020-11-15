@@ -1,3 +1,7 @@
+// Ujjwal Kumar Jha
+// 20194196
+// Swing Accumulator
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
