@@ -97,7 +97,7 @@ public void complogic(int num){
 /*********************************************************/  
   
 TTT1(){  
-super("tic tac toe by ashwani");  
+super("tic tac toe by Ujjwal Jha");  
   
 CheckboxGroup cbg=new CheckboxGroup();  
 c1=new Checkbox("vs computer",cbg,false);  
